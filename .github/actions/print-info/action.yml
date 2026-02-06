@@ -1,4 +1,4 @@
-name: Print Project Info
+﻿name: Print Project Info
 description: Custom action that prints basic project information
 
 runs:
