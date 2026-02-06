@@ -1,11 +1,14 @@
-name: "Print Project Info"
-description: "Custom action that prints basic project information"
+name: Print Project Info
+description: Custom action that prints basic project information
+
 runs:
-  using: "composite"
+  using: composite
   steps:
-    - run: echo "Project: DevOps Project"
-      shell: bash
-    - run: echo "Author: mixi23"
-      shell: bash
-    - run: echo "Build triggered by GitHub Actions"
-      shell: bash
+    - shell: bash
+      run: echo "Project: DevOps Project"
+
+    - shell: bash
+      run: echo "Author: mixi23"
+
+    - shell: bash
+      run: echo "Build triggered by GitHub Actions"
